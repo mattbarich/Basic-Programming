@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// function to swap the the position of two elements
 void swap(int *a, int *b){
     int temp = *a;
     *a = *b;
@@ -19,7 +18,6 @@ void selectionSort(int array[], int size){
     }
 }
 
-// function to print an array
 void printArray(int array[], int size){
     for (int i = 0; i < size; ++i)    {
         printf("%d  ", array[i]);
@@ -27,7 +25,6 @@ void printArray(int array[], int size){
     printf("\n");
 }
 
-// driver code
 int main() {
 
     int data[] = {-2, 45, 0, 11, -9, 12, -2, 24562, 123, 123, 162, 87, 45};
